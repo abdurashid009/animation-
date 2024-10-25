@@ -1,0 +1,42 @@
+*{
+   
+}
+
+.d1{
+    width: 200px;
+    height: 200px;
+    animation-name:d1;
+    background-color: aqua;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    position: absolute;
+}
+@keyframes d1{
+    0%{
+        background-color: aqua;
+        left: 0;
+    }
+    25%{
+        background-color: palevioletred;
+        left: 900px;
+        top: 8px;
+       
+    }
+    50%{
+        background-color: black;
+        top: 400px;
+        right: 0;
+        animation-duration: 2s;
+    }
+    75%{
+        background-color: orange;
+        right: 1190px;
+        bottom: 40px;
+    }
+    100%{
+        background-color: red;
+        bottom: 400px;
+    }
+}
